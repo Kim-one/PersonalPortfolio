@@ -1,0 +1,1748 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe5f2;
+  padding: 0;
+}
+/*Nav Bar*/
+.logo div:nth-child(1) {
+  background: url("Assets/Kimone.png");
+  background-repeat: no-repeat;
+  background-size: 120px;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: -35px;
+  left: -790;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  font-family: "Londrina Sketch", sans-serif;
+}
+
+.home-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-container li {
+  float: left;
+  display: block;
+}
+
+.home-container li a {
+  font-size: 130%;
+  display: block;
+  color: #cc65b8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home-container li a:hover {
+  color: white;
+  background-color: #fac7f2;
+}
+
+.home-container .text {
+  font-family: "Londrina Sketch", sans-serif;
+  color: #cc65b8;
+  font-size: 249%;
+}
+
+/*HOME SECTION*/
+.home-container {
+  display: inline-block;
+  position: relative;
+  width: 100vw;
+}
+
+.home-container #fade-In {
+  animation: fadeIn-text 5s linear infinite;
+}
+
+.container {
+  display: inline-block;
+}
+
+#typingEffect {
+  border-right: 3px solid #cc65b8;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typeWriter 2.5s steps(30, end) forwards,
+    blinkingCurser 1.5s infinite;
+}
+
+/* top left first image*/
+.background-image div:nth-child(1) {
+  position: absolute;
+  top: 5;
+  left: 0;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/polaroid.png");
+  background-size: 250px;
+  animation: moveBackground 5s linear infinite;
+  background-repeat: no-repeat;
+}
+
+/*bottom left first image*/
+.background-image div:nth-child(2) {
+  position: absolute;
+  top: 365px;
+  left: 90px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/book.png");
+  background-size: 250px;
+  animation: vibrate 2s linear infinite;
+  background-repeat: no-repeat;
+}
+
+/*bottom left second image*/
+.background-image div:nth-child(3) {
+  position: absolute;
+  top: 340px;
+  left: 190px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/glasses.png");
+  background-size: 250px;
+  animation: vibrate 1s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*top left second image*/
+.background-image div:nth-child(4) {
+  position: absolute;
+  top: 40px;
+  left: 150px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/headphones.png");
+  background-size: 250px;
+  animation: moveBackground 2s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/* top right side third image*/
+.background-image div:nth-child(5) {
+  position: absolute;
+  top: 30px;
+  left: 1045px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/nintendo.png");
+  background-size: 250px;
+  animation: moveBackground 2s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*top right  side first image*/
+.background-image div:nth-child(6) {
+  position: absolute;
+  top: 0px;
+  left: 824px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/flag.png");
+  background-size: 150px;
+  animation: moveBackground 3s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*top right second image*/
+.background-image div:nth-child(7) {
+  position: absolute;
+  top: 50px;
+  left: 905px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/Laptop.png");
+  background-size: 250px;
+  animation: moveBackground 5s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*bottom right first image*/
+.background-image div:nth-child(8) {
+  position: absolute;
+  top: 390px;
+  left: 900px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/yoga\ bag.png");
+  background-size: 310px;
+  animation: vibrate 1s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*bottom right second image*/
+.background-image div:nth-child(9) {
+  position: absolute;
+  top: 260px;
+  left: 910px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/milkshake.png");
+  background-size: 440px;
+  animation: vibrate 1s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*top right third image*/
+.background-image div:nth-child(10) {
+  position: absolute;
+  top: 20px;
+  left: 280px;
+  width: 20%;
+  height: 20%;
+  background: url("Assets/GameConsole.png");
+  background-size: 250px;
+  animation: moveBackground 2.5s infinite;
+  background-repeat: no-repeat;
+  transform-origin: center;
+}
+
+/*Links to pages*/
+.links-to-pages {
+  /*margin-left: 350px;*/
+  margin-top: 75px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.links-to-pages p {
+  display: flex;
+  align-items: center;
+}
+
+.links-to-pages a {
+  text-decoration: none;
+  color: #cc65b8;
+  z-index: 10;
+}
+
+.links-to-pages span {
+  color: #cc65b8;
+}
+
+.links-to-pages p:hover * {
+  padding: 5px;
+  border-radius: 25px;
+  background: #ff66c4;
+  color: white;
+}
+
+/********Home footer*/
+.home-container .home-footer {
+  display: flex;
+  text-align: center;
+  position: relative;
+}
+
+.Welcome-text {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 895%;
+  color: white;
+  position: relative;
+  animation: move-text 3s linear infinite;
+  opacity: 0.5;
+}
+
+/*creates vibrating effect on the background images*/
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  25% {
+    transform: translate(2px, -2px);
+  }
+  50% {
+    transform: translate(-2px, 2px);
+  }
+  75% {
+    transform: translate(2px, 2px);
+  }
+  100% {
+    transform: translate(-2px, -2px);
+  }
+}
+
+/*Moves images in the background*/
+@keyframes moveBackground {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30%);
+  }
+}
+
+/*Creates blinking cursor effect*/
+@keyframes blinkingCurser {
+  0% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: #cc65b8;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+/*Creates the typwriter effect*/
+@keyframes typeWriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+/*Moves other text on home page*/
+@keyframes fadeIn-text {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(5%);
+  }
+}
+
+/*Moves welcome text*/
+@keyframes move-text {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translate(100%);
+  }
+}
+
+/**************ABOUT SECTION************/
+.text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#about {
+  font-family: "Londrina Sketch", sans-serif;
+  text-align: center;
+  font-size: 190%;
+}
+
+.about-container {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: hsl(307, 81%, 87%);
+}
+
+.about-container .text {
+  font-family: "Anton", sans-serif;
+  font-size: 470%;
+  color: rgb(252, 69, 215);
+}
+
+.outer-container {
+  background-color: #cc65b8;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #5d2b53;
+}
+
+.inner-container {
+  font-family: "Londrina Sketch", sans-serif;
+  background-color: #ffe5f2;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-top: none;
+  border-left: 1.5px solid #5d2b53;
+  border-right: 1.5px solid #5d2b53;
+  display: flex;
+  flex-direction: column;
+  height: 500px; /* Set a fixed height suitable for your design */
+  overflow-x: hidden;
+}
+
+/*Circles on left side*/
+.tab-side {
+  padding: 10px;
+  background-color: #ffe5f2;
+  border-radius: 50%;
+}
+
+/*circles on left side*/
+.left-tabs {
+  display: flex;
+  gap: 2px;
+  margin-left: 10px;
+}
+
+.left-tabs div:nth-child(1) {
+  background-color: rgb(249, 86, 86);
+}
+
+.left-tabs div:nth-child(2) {
+  background-color: rgb(253, 253, 121);
+}
+
+.left-tabs div:nth-child(3) {
+  background-color: rgb(122, 248, 122);
+}
+
+/*tab*/
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+/*Tab links*/
+.tab-link {
+  z-index: 10;
+}
+
+.tab-link {
+  font-family: "Londrina Sketch", sans-serif;
+  font-size: 250%;
+  margin: 0;
+  padding: 2px 2px 2px 0;
+  background: none;
+  border: none;
+}
+
+.tab-link:hover {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fac7f2;
+  border: none;
+}
+
+.tab-link.active {
+  background-color: #ffe5f2;
+  border-radius: 6px 6px 0 0;
+  padding-right: 15px;
+  border-top: 1.5px solid #5d2b53;
+  border-left: 1.5px solid #5d2b53;
+  border-right: 1.5px solid #5d2b53;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/*Hide tabs at first except about tab*/
+#my-skills {
+  display: none;
+}
+
+#experience {
+  display: none;
+}
+
+#education {
+  display: none;
+}
+
+/*next page arrows */
+#moveUpwards {
+  position: relative;
+  top: 20px;
+  padding: 5px;
+  background-color: #cf51f1;
+  border-radius: 35px;
+  margin-left: 1090px;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  z-index: 9;
+}
+
+#moveDownwards {
+  position: relative;
+  padding: 5px;
+  top: 10px;
+  background-color: #cf51f1;
+  border-radius: 35px;
+  margin-left: 1090px;
+  transform: rotate(90deg);
+  cursor: pointer;
+  z-index: 9;
+}
+
+/*Education tab*/
+#edu1 {
+  text-align: center;
+  margin: 0 170px 0 170px;
+  font-size: 170%;
+}
+
+#edu-title {
+  text-align: center;
+  font-size: 180%;
+  margin-bottom: 35px;
+}
+
+ul {
+  list-style-type: square;
+  color: #5d2b53;
+}
+
+ul.courses li {
+  margin-left: 396px;
+  font-size: 170%;
+}
+
+.about-container .text span {
+  float: right;
+  margin-top: -40px;
+  margin-right: 10px;
+}
+
+/*Experience Tab*/
+.experience-title {
+  text-align: center;
+  font-size: 190%;
+  margin-bottom: 35px;
+}
+
+#experience-text {
+  text-align: center;
+  margin: 0 170px 0 170px;
+  font-size: 150%;
+}
+
+/*Background Images */
+.about-background-images div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/aboutme.png");
+  left: 0;
+  top: 645px;
+  width: 20%;
+  height: 20%;
+  background-size: 270px;
+  background-repeat: no-repeat;
+  animation: vibrate 5s infinite;
+  z-index: 1;
+}
+
+.about-background-images div:nth-child(2) {
+  position: absolute;
+  background: url("Assets/e.png");
+  left: 660px;
+  top: 995px;
+  height: 30%;
+  width: 30%;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+/*Background Images for about tab*/
+.about-background-images1 div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/phone.png");
+  left: 50px;
+  top: 745px;
+  height: 30%;
+  width: 30%;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  /*animation: vibrate 5s infinite;*/
+  z-index: 2;
+}
+
+.about-background-images1 div:nth-child(2) {
+  position: absolute;
+  background: url("Assets/food.png");
+  left: 650px;
+  top: 750px;
+  height: 30%;
+  width: 30%;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  /*animation: vibrate 5s infinite;*/
+  z-index: 2;
+}
+
+/*Background Images for skills tab*/
+.about-background-images2 div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/book.png");
+  top: 860px;
+  left: 50px;
+  height: 20%;
+  width: 20%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+.about-background-images2 div:nth-child(2) {
+  background: url("Assets/glasses.png");
+  position: absolute;
+  top: 860px;
+  left: 950px;
+  width: 20%;
+  height: 20%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+}
+
+/*Background Images for experience tab*/
+.about-background-images3 div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/nintendo.png");
+  background-repeat: no-repeat;
+  background-size: 350px;
+  height: 20%;
+  width: 20%;
+  top: 860px;
+  left: 10px;
+}
+
+.about-background-images3 div:nth-child(2) {
+  position: absolute;
+  background: url("Assets/headphones.png");
+  width: 20%;
+  height: 20%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  top: 890px;
+  left: 890px;
+}
+
+/*Background Images for education tab*/
+.about-background-images4 div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/Laptop.png");
+  top: 860px;
+  left: 5px;
+  width: 20%;
+  height: 20%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.about-background-images4 div:nth-child(2) {
+  position: absolute;
+  background: url("Assets/glasses.png");
+  background-repeat: no-repeat;
+  background-size: 250px;
+  width: 20%;
+  height: 20%;
+  top: 890px;
+  left: 990px;
+}
+
+/*Animations*/
+.skills {
+  font-family: "Londrina Sketch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+  animation: movingTexts 3.5s linear infinite;
+  font-size: 230%;
+}
+
+.skills1 {
+  font-family: "Londrina Sketch", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+  font-size: 230%;
+  animation: movingTexts1 3.5s reverse infinite;
+}
+
+@keyframes movingTexts {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(60%);
+  }
+}
+
+@keyframes movingTexts1 {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(60%);
+  }
+}
+
+/*Kims Corner Text*/
+.text1 {
+  text-align: center;
+  font-family: "Londrina Sketch", sans-serif;
+}
+
+.menu {
+  display: none;
+}
+
+/**************Projects***********************/
+.projects-container {
+  background-color: hsl(307, 81%, 87%);
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Londrina Sketch", sans-serif;
+}
+
+#heading {
+  font-family: "Londrina Sketch", sans-serif;
+}
+
+.projects-container h1 span {
+  float: right;
+  margin-right: 10px;
+  margin-top: -35px;
+}
+
+.projects-container .text {
+  font-size: 450%;
+  color: rgb(252, 69, 215);
+  font-family: "Anton", sans-serif;
+}
+
+.proj-inner-container h3 {
+  margin: 0;
+}
+
+.proj-outer-container {
+  background-color: #cc65b8;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #5d2b53;
+}
+
+.proj-tab-link {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-family: "Londrina Sketch", sans-serif;
+  font-size: 250%;
+  margin: 0;
+  padding: 2px 2px 2px 0;
+}
+
+.proj-outer-container .proj-tabs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.proj-left-tabs {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin-left: 10px;
+}
+
+.left-side-1 {
+  padding: 10px;
+  background-color: #ffe5f2;
+  border-radius: 50%;
+}
+
+.proj-left-tabs div:nth-child(1) {
+  background-color: rgb(249, 86, 86);
+}
+
+.proj-left-tabs div:nth-child(2) {
+  background-color: rgb(253, 253, 121);
+}
+
+.proj-left-tabs div:nth-child(3) {
+  background-color: rgb(122, 248, 122);
+}
+
+.proj-tab-link:hover {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #fac7f2;
+}
+
+.proj-tab-link.active {
+  background-color: #ffe5f2;
+  border-radius: 6px 6px 0 0;
+  padding-right: 15px;
+  border-top: 1.5px solid #5d2b53;
+  border-left: 1.5px solid #5d2b53;
+  border-right: 1.5px solid #5d2b53;
+}
+
+.proj-inner-container {
+  position: relative;
+  background-color: #ffe5f2;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-top: none;
+  border-left: 1.5px solid #5d2b53;
+  border-right: 1.5px solid #5d2b53;
+  height: 500px;
+  overflow-x: hidden;
+}
+
+.projects-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttons {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.buttons button {
+  background: linear-gradient(to right, #cf51f1, #fac7f2);
+  border: none;
+  padding: 25px;
+  margin-left: 350px;
+  margin-right: 350px;
+  border-radius: 25px;
+  font-size: 250%;
+  font-family: "Londrina Sketch", sans-serif;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+}
+
+#websites {
+  display: none;
+}
+
+#games {
+  display: none;
+  margin-left: 5px;
+}
+
+h3 span {
+  transform: rotate(180deg);
+  float: left;
+  color: black;
+}
+
+img {
+  width: 450px;
+  height: 300px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+}
+
+/*MODAL*/
+.modal {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 450px;
+  top: 0;
+  width: 48%;
+  height: 300px;
+  background-color: #fefefe;
+  overflow: auto;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  height: 300px;
+  margin: auto;
+  font-size: 140%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.modal-title {
+  text-align: center;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.proj-background-images div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/girl.png");
+  width: 40%;
+  height: 40%;
+  top: 265px;
+  left: 800px;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  animation: vibrate 5s infinite;
+}
+
+.proj-background-images div:nth-child(2) {
+  position: absolute;
+  background: url("Assets/animeGuy.png");
+  width: 40%;
+  height: 40%;
+  top: 180px;
+  left: -140px;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  animation: vibrate 5s infinite;
+}
+.proj-background-images1 div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/projects.png");
+  width: 40%;
+  height: 40%;
+  top: 1350px;
+  left: -120px;
+  background-repeat: no-repeat;
+  background-size: 450px;
+  animation: vibrate 5s infinite;
+}
+
+/*Chat bubbles*/
+.chat-bubble {
+  margin-left: 620px;
+  margin-top: 350px;
+  position: absolute;
+  background: #89d5f3;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 100%;
+}
+
+.chat-bubble:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 31px solid transparent;
+  border-left-color: #89d5f3;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -30.5px;
+  margin-right: -21px;
+}
+
+.chat-bubble1 {
+  margin-left: 690px;
+  margin-top: 230px;
+  position: absolute;
+  background: #89d5f3;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 110%;
+}
+
+.chat-bubble1:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 31px solid transparent;
+  border-left-color: #89d5f3;
+  border-right: 0;
+  border-bottom: 0;
+  margin-top: -30.5px;
+  margin-right: -21px;
+}
+
+.chat-bubble2 {
+  margin-left: 125px;
+  margin-top: 320px;
+  position: absolute;
+  background: #89d5f3;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 110%;
+}
+
+.chat-bubble2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 31px solid transparent;
+  border-right-color: #89d5f3;
+  border-left: 0;
+  border-top: 0;
+  margin-top: -30.5px;
+  margin-left: -20px;
+}
+
+/*Background images games*/
+.proj-games-background-images div:nth-child(1) {
+  background: url("Assets/game2.png");
+  background-repeat: no-repeat;
+  background-size: 320px;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 60px;
+  left: 860px;
+  animation: vibrate 2.5s infinite;
+}
+
+.proj-games-background-images div:nth-child(2) {
+  background: url("Assets/game3.png");
+  background-repeat: no-repeat;
+  background-size: 320px;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 0px;
+  left: 760px;
+  animation: vibrate 1.5s infinite;
+}
+
+.proj-games-background-images div:nth-child(3) {
+  background: url("Assets/game1.png");
+  background-repeat: no-repeat;
+  background-size: 320px;
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  top: 0px;
+  left: 830px;
+  animation: vibrate 5s infinite;
+}
+
+/*************CONTACT SECTION*****************/
+
+.contact1 {
+  height: 650px;
+  color: #ff66c4;
+  margin-left: 60px;
+  margin-right: 60px;
+  font-family: "Anton", sans-serif;
+  background-color: hsl(308, 47%, 84%);
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+  height: 460px;
+  border-radius: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  background: url("Assets/backgroundflower1.png"),
+    linear-gradient(90deg, #fff7ad, #ffa9f9);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 260% 270%, 160% 150%;
+}
+
+.contact-container input {
+  background-color: #ffe5f2;
+  width: 295px;
+  height: 2.5rem;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 1.5rem;
+  outline: none;
+}
+
+.contact-container textarea {
+  outline: none;
+  margin-top: 1.5rem;
+  width: 300px;
+  height: 15rem;
+  border-radius: 1rem;
+  background-color: #ffe5f2;
+  resize: none;
+}
+
+#submit-button {
+  display: flex;
+  align-items: center;
+  margin-left: 6rem;
+  padding: 0.5px 0.5px;
+  gap: 5px;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #e023f1, #e658be);
+  border: none;
+  color: white;
+}
+
+.contact-form {
+  position: absolute;
+  border-radius: 35px;
+  z-index: 2;
+}
+
+form {
+  margin-left: 50px;
+}
+
+#submit-button:hover {
+  cursor: pointer;
+}
+
+.contact-text {
+  padding: 30px 30px;
+  text-align: center;
+  border-radius: 50% 50%;
+  width: 1100px;
+  height: 400px;
+  z-index: 1;
+  background: linear-gradient(to right, #fff7ad, #ffa9f9);
+}
+
+#reach-out-text {
+  margin-top: 30%;
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 300%;
+}
+
+.contact-container .text {
+  color: rgb(252, 69, 215);
+  font-size: 450%;
+}
+
+.contact1 h1 {
+  font-size: 450%;
+}
+
+.contact1 .text span {
+  float: right;
+  margin-top: -35px;
+  margin-right: 10px;
+}
+
+.contact-me-background-images div:nth-child(1) {
+  position: absolute;
+  background: url("Assets/contactme.png");
+  left: 0;
+  top: 2110px;
+  width: 20%;
+  height: 20%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  animation: vibrate 5s infinite;
+  z-index: 1;
+}
+
+.icon {
+  display: none;
+}
+
+/**************RESPONSIVE*****************/
+/*Desktop and laptops*/
+@media screen and (min-width: 1440px) {
+  #moveDownwards {
+    position: relative;
+    padding: 5px;
+    top: 10px;
+    background-color: #cf51f1;
+    border-radius: 35px;
+    margin-left: 1260px;
+    transform: rotate(90deg);
+    cursor: pointer;
+    z-index: 10;
+  }
+  /******Home Screen********/
+  /* top right side third image*/
+  .background-image div:nth-child(5) {
+    position: absolute;
+    top: 30px;
+    left: 1157px;
+    width: 20%;
+    height: 20%;
+    background: url("Assets/nintendo.png");
+    background-size: 250px;
+    animation: moveBackground 2s infinite;
+    background-repeat: no-repeat;
+    transform-origin: center;
+  }
+
+  /*top right  side first image*/
+  .background-image div:nth-child(6) {
+    position: absolute;
+    top: 0px;
+    left: 951px;
+    width: 20%;
+    height: 20%;
+    background: url("Assets/flag.png");
+    background-size: 150px;
+    animation: moveBackground 3s infinite;
+    background-repeat: no-repeat;
+    transform-origin: center;
+  }
+
+  /*top right second image*/
+  .background-image div:nth-child(7) {
+    position: absolute;
+    top: 50px;
+    left: 1016px;
+    width: 20%;
+    height: 20%;
+    background: url("Assets/Laptop.png");
+    background-size: 250px;
+    animation: moveBackground 5s infinite;
+    background-repeat: no-repeat;
+    transform-origin: center;
+  }
+  /*bottom right first image*/
+  .background-image div:nth-child(8) {
+    position: absolute;
+    top: 390px;
+    left: 955px;
+    width: 20%;
+    height: 20%;
+    background: url("Assets/yoga\ bag.png");
+    background-size: 310px;
+    animation: vibrate 1s infinite;
+    background-repeat: no-repeat;
+    transform-origin: center;
+  }
+
+  /*bottom right second image*/
+  .background-image div:nth-child(9) {
+    position: absolute;
+    top: 260px;
+    left: 969px;
+    width: 20%;
+    height: 20%;
+    background: url("Assets/milkshake.png");
+    background-size: 440px;
+    animation: vibrate 1s infinite;
+    background-repeat: no-repeat;
+    transform-origin: center;
+  }
+  /******HOME SCREEN END*******/
+
+  /******ABOUT SCREEN BEG******/
+  .about-background-images3 div:nth-child(2) {
+    position: absolute;
+    background: url("Assets/headphones.png");
+    width: 20%;
+    height: 20%;
+    background-size: 350px;
+    background-repeat: no-repeat;
+    top: 890px;
+    left: 1090px;
+  }
+  /******ABOUT SCREEN END******/
+
+  /******PROJECT SCREEN BEG****/
+  /*Background images games*/
+  .proj-games-background-images div:nth-child(1) {
+    background: url("Assets/game2.png");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 60px;
+    left: 1060px;
+    animation: vibrate 2.5s infinite;
+  }
+
+  .proj-games-background-images div:nth-child(2) {
+    background: url("Assets/game3.png");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 0px;
+    left: 960px;
+    animation: vibrate 1.5s infinite;
+  }
+
+  .proj-games-background-images div:nth-child(3) {
+    background: url("Assets/game1.png");
+    background-repeat: no-repeat;
+    background-size: 320px;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 0px;
+    left: 1030px;
+    animation: vibrate 5s infinite;
+  }
+  .proj-background-images div:nth-child(1) {
+    position: absolute;
+    background: url("Assets/girl.png");
+    width: 40%;
+    height: 40%;
+    top: 265px;
+    left: 910px;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    animation: vibrate 5s infinite;
+  }
+
+  .chat-bubble {
+    margin-left: 720px;
+    margin-top: 350px;
+    position: absolute;
+    background: #89d5f3;
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 100%;
+  }
+
+  .chat-bubble1 {
+    margin-left: 800px;
+    margin-top: 230px;
+    position: absolute;
+    background: #89d5f3;
+    border-radius: 25px;
+    padding: 25px;
+    font-size: 110%;
+  }
+
+  .chat-bubble1:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 31px solid transparent;
+    border-left-color: #89d5f3;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -30.5px;
+    margin-right: -21px;
+  }
+  /******PROJECT SCREEN END****/
+  /******CONTACT SCREEN BEG****/
+  .contact-text {
+    padding: 30px 30px;
+    text-align: center;
+    border-radius: 50% 50%;
+    width: 850px;
+    height: 450px;
+    z-index: 1;
+    background: linear-gradient(to right, #fff7ad, #ffa9f9);
+  }
+}
+
+/*Mobile Devices*/
+@media only screen and (max-width: 600px) {
+  /*********************NAVBAR*********************/
+  .top-nav {
+    display: none;
+  }
+
+  a.icon {
+    float: right;
+    display: block;
+    color: #d703ad;
+  }
+
+  .top-nav.responsive {
+    display: block;
+    position: relative;
+  }
+
+  .top-nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .top-nav.responsive li {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  /****************END OF NAVBAR*******************/
+
+  /******************BEG HOME PAGE**************/
+  /* top left first image*/
+  .background-image div:nth-child(1) {
+    position: absolute;
+    top: 5;
+    left: 0;
+    width: 10%;
+    height: 10%;
+    background: url("Assets/polaroid.png");
+    background-size: 70px;
+    animation: moveBackground 1s linear infinite;
+    background-repeat: no-repeat;
+  }
+
+  /*bottom left first image*/
+  .background-image div:nth-child(2) {
+    position: absolute;
+    top: 365px;
+    left: 0;
+    width: 15%;
+    height: 15%;
+    background: url("Assets/book.png");
+    background-size: 90px;
+    animation: vibrate 2s linear infinite;
+    background-repeat: no-repeat;
+  }
+
+  /*top right  side first image*/
+  .background-image div:nth-child(6) {
+    position: absolute;
+    top: 30px;
+    left: 324px;
+    width: 10%;
+    height: 10%;
+    background: url("Assets/flag.png");
+    background-size: 50px;
+    animation: moveBackground 3s infinite;
+    background-repeat: no-repeat;
+    transform-origin: center;
+  }
+
+  .home-container #typingEffect {
+    font-size: 35px;
+  }
+
+  #fade-In,
+  #typingEffect {
+    font-size: 35px;
+    margin-top: 40px;
+  }
+
+  .links-to-pages {
+    font-size: 10px;
+  }
+
+  .Welcome-text {
+    font-size: 70px;
+  }
+  /***********END HOME PAGE*****************/
+
+  /**************BEG ABOUT PAGE******************/
+  .tabs .tab-link:not(button:first-of-type) {
+    display: none;
+  }
+
+  .tabs.responsive {
+    display: block;
+    gap: 10px;
+    position: relative;
+    z-index: 30;
+  }
+
+  .tabs.responsive button.tab-link {
+    text-align: left;
+    display: block;
+  }
+
+  .tabs.responsive a.icon {
+    position: relative;
+    float: right;
+    right: 20px;
+    top: -120px;
+  }
+  /*
+  .tabs.responsive {
+    display: block;
+    position: relative;
+  }
+
+  .tab-link {
+    font-family: "Londrina Sketch", sans-serif;
+    font-size: 130%;
+    margin: 0;
+    padding: 8px 8px;
+    display: block;
+    width: 40%;
+  }
+
+  .tab-link:hover {
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fac7f2;
+  }
+
+  .tab-link.active {
+    background-color: #ffe5f2;
+    border-radius: 6px 6px 0 0;
+    border-top: 1.5px solid #5d2b53;
+    border-left: 1.5px solid #5d2b53;
+    border-right: 1.5px solid #5d2b53;
+  }
+  */
+  .about-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .about-container .text {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    color: rgb(252, 69, 215);
+  }
+
+  #about h1,
+  #my-skills h1,
+  #experience h1,
+  #education h1 {
+    font-size: 30px;
+  }
+
+  #about p,
+  #my-skills p,
+  #experience p,
+  #education p {
+    font-size: 25px;
+  }
+
+  ul.courses li {
+    margin-left: 26px;
+    font-size: 25px;
+  }
+  #edu1 {
+    text-align: center;
+    margin: 0 20px 0 20px;
+    font-size: 25px;
+  }
+
+  #experience-text {
+    text-align: center;
+    margin: 0 20px 0 20px;
+    font-size: 25px;
+  }
+
+  #moveUpwards {
+    position: relative;
+    top: 30px;
+    right: -13px;
+    padding: 3px;
+  }
+
+  #moveDownwards {
+    position: relative;
+    padding: 3px;
+    top: 10px;
+    right: 778px;
+  }
+
+  .tab-link {
+    font-size: 130%;
+    color: #000;
+  }
+  /**************END ABOUT PAGE******************/
+
+  /**************BEG PROJECT PAGE******************/
+  .projects-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .projects-container h1.text {
+    font-size: 50px;
+  }
+  #heading {
+    font-size: 50px;
+  }
+
+  .buttons {
+    align-items: center;
+  }
+
+  .proj-tabs {
+    gap: 2px;
+  }
+
+  #tab-name {
+    font-size: 130%;
+    margin-left: -15px;
+  }
+
+  .buttons button {
+    font-size: 25px;
+  }
+  .chat-bubble {
+    margin-left: 10px;
+    margin-top: 340px;
+    position: absolute;
+    background: #89d5f3;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .chat-bubble:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 31px solid transparent;
+    border-left-color: #89d5f3;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -5px;
+    margin-right: -21px;
+  }
+
+  .chat-bubble1 {
+    margin-left: 2px;
+    margin-top: 240px;
+    position: absolute;
+    background: #89d5f3;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .chat-bubble1:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 31px solid transparent;
+    border-left-color: #89d5f3;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -10.5px;
+    margin-right: -11px;
+  }
+
+  .chat-bubble2 {
+    margin-left: 25px;
+    margin-top: 240px;
+    position: absolute;
+    background: #89d5f3;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 20px;
+  }
+  .chat-bubble2:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 31px solid transparent;
+    border-right-color: #89d5f3;
+    border-left: 0;
+    border-top: 0;
+    margin-top: -20.5px;
+    margin-left: -20px;
+  }
+
+  .proj-background-images div:nth-child(1) {
+    position: absolute;
+    background: url("Assets/girl.png");
+    width: 40%;
+    height: 40%;
+    top: 365px;
+    left: 160px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    animation: vibrate 5s infinite;
+  }
+
+  .proj-background-images div:nth-child(2) {
+    position: absolute;
+    background: url("Assets/animeGuy.png");
+    width: 40%;
+    height: 40%;
+    top: 160px;
+    left: -80px;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    animation: vibrate 5s infinite;
+  }
+
+  img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 150px;
+    top: 0;
+    width: 40%;
+    height: 100px;
+    background-color: #fefefe;
+    overflow: auto;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    height: 100px;
+    margin: auto;
+    font-size: 20px;
+  }
+
+  /**************BEG CONTACT PAGE*******************/
+  .contact1 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .contact1 h1.text {
+    font-size: 50px;
+  }
+
+  .contact-container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .contact-text {
+    display: none;
+  }
+
+  form {
+    margin-left: 5px;
+  }
+}

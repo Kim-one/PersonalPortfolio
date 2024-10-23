@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Google Icons-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_right_alt" />
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com" />-->
+  <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+  <!--<link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />-->
+  <!--<link rel="preconnect" href="https://fonts.googleapis.com" />-->
+  <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />-->
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!--*************HOME SECTION******************-->
+  <section id="home">
+    <div class="home-container">
+      <!--***************NAV BAR*********************-->
+      <div class="Nav-bar">
+        <div class="logo">
+          <div></div>
+        </div>
+        <nav>
+          <ul class="top-nav" id="mytop-nav">
+            <li>
+              <a href="#home"><b>Home</b></a>
+            </li>
+            <li>
+              <!--<a href="#about-section"><b>About</b></a>-->
+              <a href="#about-page"><b>About</b></a>
+            </li>
+            <li>
+              <a href="#projects"><b>Projects</b></a>
+            </li>
+            <li>
+              <a href="#contact"><b>Contact</b></a>
+            </li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </nav>
+      </div>
+      <!--Background Images -->
+      <div class="background-image">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <p class="text" id="fade-In">Hi, my name is</p>
+      <br />
+      <div class="text">
+        <div class="container">
+          <h2 id="typingEffect"><b>Kimone Barrett</b></h2>
+        </div>
+      </div>
+      <p id="fade-In" class="text">
+        I&#39m a
+        Computer Science and Business Administration
+        major
+        at Saint
+        Mary&#39s University.
+      </p>
+      <div class="links-to-pages">
+        <div class="text">
+          <p>
+            <a href="#about-page">See More About Me</a>
+            <span class="material-symbols-outlined"> arrow_right_alt </span>
+          </p>
+        </div>
+        <div class="text">
+          <p>
+            <a href="#projects">See Projects</a>
+            <span class="material-symbols-outlined"> arrow_right_alt </span>
+          </p>
+        </div>
+      </div>
+      <div class="home-footer">
+        <p class="Welcome-text">
+          <b>Welcome</b>
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--*************ABOUT ME************-->
+  <section id="about-page">
+    <div class="about-container">
+      <h1 class="text">
+        About
+        <span><a href="#home"><span id="moveUpwards" class="material-symbols-outlined">
+              arrow_right_alt
+            </span></a></span>
+      </h1>
+
+      <div class="about-background-images">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="outer-container">
+        <div class="tabs" id="tabs1">
+          <div class="left-tabs">
+            <div class="tab-side"></div>
+            <div class="tab-side"></div>
+            <div class="tab-side"></div>
+          </div>
+          <button class="tab-link active" onclick="openAboutTabs(event, 'about')">
+            About
+          </button>
+          <button class="tab-link" onclick="openAboutTabs(event,'my-skills')">
+            Skills
+          </button>
+          <button class="tab-link" onclick="openAboutTabs(event,'experience')">
+            Experience
+          </button>
+          <button class="tab-link" onclick="openAboutTabs(event,'education')">
+            Education
+          </button>
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div class="inner-container">
+          <div class="tabContent active" id="about">
+            <div class="about-background-images1">
+              <div></div>
+              <div></div>
+            </div>
+            <h1>Learn More About Me!</h1>
+            <br />
+            <p>
+              I&#39m a web and game development focused student with years of
+              experience in problem solving, <br /><br />and coding in
+              languages such as Java, C, and C++ through different university
+              projects.<br />
+              <br />
+              Excellent communicator who builds enduring bonds of trust and
+              dependability with people from a variety of backgrounds. <br />
+              <br />
+              Seeking an opportunity to gain further knowledge and skills.
+            </p>
+          </div>
+          <div class="tabContent" id="my-skills">
+            <div class="about-background-images2">
+              <div></div>
+              <div></div>
+            </div>
+            <p class="skills">HTML - CSS - JavaScript</p>
+            <p class="skills1">Website Management</p>
+            <p class="skills">Java - C - C# - C++</p>
+            <p class="skills1">Game Development</p>
+            <p class="skills">Unity - Python</p>
+            <p class="skills1">Canva - SQL</p>
+            <p class="skills">Web Development</p>
+            <p class="skills1">Azure</p>
+          </div>
+          <div class="tabContent" id="experience">
+            <div class="about-background-images3">
+              <div></div>
+              <div></div>
+            </div>
+            <h1 class="experience-title">View My Journey</h1>
+            <p id="experience-text">
+              My internship at Lucas Technology & Analytics was like a
+              real-life anime adventure! I felt like a digital wizard,
+              transforming raw data into powerful reports with Power BI and C#
+              &#8211 it was almost as magical as a spell!<br />
+              I even had to become a web detective, tracking down inactive
+              domains and resurrecting them like a phoenix from the ashes
+              using WampServer64. And let's not forget my role as the digital
+              guardian, ensuring their websites were safe and secure with SSL
+              certificates and updated tags &#8211 a bit like a hero protecting a
+              kingdom from cyber threats. It was a thrilling journey, filled
+              with challenges and triumphs, and I'm excited to see what other
+              adventures await me in the world of web development.
+              <br /><br />Can you tell I love anime as well? &#128512;
+            </p>
+          </div>
+          <div class="tabContent" id="education">
+            <div class="about-background-images4">
+              <div></div>
+              <div></div>
+            </div>
+            <h1 id="edu-title">Education and Relavant Courses</h1>
+            <p id="edu1">
+              During my many adventures as a Computer Science student, and my
+              internship at Lucas Technology, I have learnt a lot of fun and
+              interesting things.
+              <br />
+            </p>
+            <br />
+            <h1 id="edu-title">Relevant Courses</h1>
+            <ul class="courses">
+              <li>Mobile App Development</li>
+              <li>Game Design and Development</li>
+              <li>Database Systems</li>
+              <li>Data Structure & Algorithms</li>
+            </ul>
+          </div>
+        </div>
+        <p class="text1"><b>Kimz Korner</b></p>
+      </div>
+      <p>
+        <a href="#projects"><span id="moveDownwards" class="material-symbols-outlined">
+            arrow_right_alt
+          </span></a>
+        </p>
+      <br />
+    </div>
+  </section>
+  <br />
+  <!--**************PROJECTS **************-->
+  <section id="projects">
+    <div class="projects-container">
+      <h1 class="text">
+        Projects
+        <span><a href="#about-page"><span id="moveUpwards" class="material-symbols-outlined">
+              arrow_right_alt
+            </span></a></span>
+      </h1>
+      <div class="proj-background-images1">
+        <div></div>
+      </div>
+      <div class="proj-outer-container">
+        <div class="proj-tabs">
+          <div class="proj-left-tabs">
+            <div class="left-side-1"></div>
+            <div class="left-side-1"></div>
+            <div class="left-side-1"></div>
+          </div>
+          <p id="tab-name" class="proj-tab-link active">Kimz Korner</p>
+        </div>
+
+        <div class="proj-inner-container">
+          <div class="proj-background-images">
+            <div></div>
+            <div id="guy1"></div>
+          </div>
+          <div id="chat2" class="chat-bubble2">
+            <b>Hi Kim, can I view your portfolio?</b>
+          </div>
+          <div id="chat" class="chat-bubble">
+            <b>Sure! Click the button above to view my games. </b>&#9996;<!--✌-->
+          </div>
+          <h3 class="text">
+            <span id="back-button" onclick="goBackToHomePage()" class="material-symbols-outlined">
+              arrow_right_alt
+            </span>
+            <!--<span><img src="/Assets/backarrow.png" id="img2" /></span>-->
+            <p id="heading">Portfolio</p>
+          </h3>
+          <div id="home-page" class="buttons">
+            <!--<button onclick="openProjectTabs(event,'websites')">
+                    Websites
+                  </button>-->
+            <button onclick="openProjectTabs(event,'games')">Games</button>
+          </div>
+          <br />
+          <br />
+          <!--<div id="websites" class="proj-tabContent">
+                  <p>Websites</p>
+                </div>-->
+
+          <div id="games" class="proj-tabContent">
+            <div class="proj-games-background-images">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <p id="chat1" class="chat-bubble1">
+              <b>Click on image to see game details</b>
+            </p>
+            <div class="image-container">
+              <img src="Assets/Screenshot 2024-10-13 234417.png" alt="Game 1 Screenshot" id="myBtn1" />
+              <div id="myModal1" class="modal">
+                <div class="modal-content">
+                  <span id="close1" class="close">&times;</span>
+                  <p class="modal-title">
+                    <b>Yavros City: Battleground Brawl</b>
+                    <br />
+                  </p>
+                  <p>
+                    In Winter 2024, I began my journey as a Game Developer. We
+                    got in groups of 3 to create a fun action pack fighting game
+                    using the Unity game engine and C#.
+                    <br />
+                    Our game was set in a futurist apocalyptic world that
+                    contained radioactive monsters, gladitors and awesome
+                    powerups!
+                    <br />
+                    <br />
+                    Click
+                    <a href="https://github.com/Kim-one/UnityProjects1.git"><b><u>here</u></b></a>
+                    to view the game
+                  </p>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="image-container">
+              <img src="Assets/Screenshot 2024-10-15 123948.png" alt="Game 2 Image" id="myBtn2" />
+              <div id="myModal2" class="modal">
+                <div class="modal-content">
+                  <span id="close2" class="close">&times;</span>
+                  <p class="modal-title">
+                    <b>Mi'kmaq Game</b>
+                    <br />
+                  </p>
+                  <p>
+                    As part of my 2023 Mobile App Development course project at
+                    Saint Mary's University, I joined a team of four on a fun
+                    quest to create an educational computer game for young
+                    Mi'kmaq learners. We embarked on this adventure armed with
+                    HTML, CSS, JavaScript, jQuery, and tons of creativity!<br />
+                    Our mission was to make learning Mi'kmaq words a fun and
+                    engaging experience for children ages 5-6. We crafted a game
+                    using drag-and-drop technology and a visually appealing
+                    Bootstrap grid system, ensuring that every element of the
+                    game was both educational and entertaining.
+                    <br />Together, we brought our vision to life, creating a
+                    game that not only taught young learners Mi'kmaq words but
+                    also sparked their curiosity and love for language. It was
+                    an incredibly rewarding experience, and I'm proud to have
+                    been part of a team that made a positive impact on the
+                    community.
+
+                    <br /><br />
+                    Click
+                    <a href="https://github.com/Kim-one/Mi-Kmaq-Game.git"><b><u>here</u></b></a>
+                    to view game.
+                  </p>
+                </div>
+                <br />
+              </div>
+            </div>
+            <br />
+          </div>
+        </div>
+        <p class="text1"><b>Kimz Korner</b></p>
+      </div>
+      <p>
+        <a href="#contact"><span id="moveDownwards" class="material-symbols-outlined">
+            arrow_right_alt
+          </span></a>
+        </p>
+      <br />
+    </div>
+  </section>
+  <!--*************CONTACT ME SECTION************-->
+  <section id="contact">
+    <div class="contact1">
+      <div class="contact-me-background-images">
+        <div></div>
+      </div>
+      <h1 class="text">
+        Contact Me
+        <span><a href="#home"><span id="moveUpwards" class="material-symbols-outlined">
+              arrow_right_alt
+            </span></a></span>
+      </h1>
+      <br />
+      <br />
+      <div class="contact-container">
+        <br />
+        <!--<div class="flower1">
+                  <img src="Assets/Flower1.png" alt="Flower image" />
+                </div>-->
+        <!--<div class="flower3">
+                  <img src="Assets/Flower1.png" alt="Flower image" />
+                </div>-->
+        <div class="contact-form">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <!--<p>Feel free to reach out!</p>-->
+            <input type="hidden" name="access_key" value="5634a534-14c6-449c-8c8b-dc902550d8c8" />
+
+            <label for="name"></label>
+            <input name="Name" type="text" id="name" placeholder="Your name..." required /><br />
+            <label for="email"></label>
+            <input type="text" name="Email Address" id="name" placeholder="Your email address..." required /><br />
+            <label for="message"></label>
+            <textarea name="Message" id="messgae" placeholder="Your message..." required></textarea>
+            <br />
+            <button id="submit-button" type="submit">
+              Submit<span class="material-symbols-outlined">
+                arrow_right_alt
+              </span>
+            </button>
+          </form>
+        </div>
+        <div class="contact-text">
+          <h3 id="reach-out-text">Feel free <br />to reach out!</h3>
+        </div>
+      </div>
+    </div>
+    <br />
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>

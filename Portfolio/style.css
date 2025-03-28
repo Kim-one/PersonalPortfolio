@@ -1,17 +1,15 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  
 }
 
 body {
   background-color: #ffe5f2;
   padding: 0;
+  overflow: scroll;
 }
 
-/* #home{
-  background-color: #89d5f3;
-  height:100vh;
-} */
 
 /*Nav Bar*/
 .logo div:nth-child(1) {
@@ -45,7 +43,7 @@ nav {
 }
 
 .home-container li a {
-  font-size: 130%;
+  font-size: 4vh;
   display: block;
   color: #cc65b8;
   text-align: center;
@@ -61,16 +59,22 @@ nav {
 .home-container .text {
   font-family: "Londrina Sketch", sans-serif;
   color: #cc65b8;
-  font-size: 249%;
+  font-size: 6vh;
 }
 
 /*HOME SECTION*/
+#home{
+  width:100vw;
+  height:100vh;
+  /* background-color: #89d5f3; */
+}
+
 .home-container {
   display: inline-block;
   position: relative;
-  width: 100vw;
-  height: 100vh;
-  background-color: #89d5f3;
+  /* background-color: #ccafc4; */
+  width: 100%;
+  min-height: 100%;
 }
 
 .home-container #fade-In {
@@ -217,12 +221,12 @@ nav {
 /*top right third image*/
 .background-image div:nth-child(10) {
   position: absolute;
-  top: 20px;
-  left: 280px;
-  width: 20%;
-  height: 20%;
+  top: 200vh;
+  left: 280vh;
+  width: 20vh;
+  height: 20vh;
   background: url("Assets/GameConsole.png");
-  background-size: 250px;
+  background-size: 250em;
   animation: moveBackground 2.5s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -231,7 +235,7 @@ nav {
 /*Links to pages*/
 .links-to-pages {
   /*margin-left: 350px;*/
-  margin-top: 75px;
+  margin-top: 5%;
   display: flex;
   gap: 50px;
   justify-content: center;
@@ -252,9 +256,9 @@ nav {
   color: #cc65b8;
 }
 
-.links-to-pages p:hover * {
-  padding: 5px;
-  border-radius: 25px;
+.links-to-pages p:hover *{
+  padding: 1vh;
+  border-radius: 25vw;
   background: #ff66c4;
   color: white;
 }
@@ -270,7 +274,7 @@ nav {
   font-family: "Anton", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 895%;
+  font-size: 22vh;
   color: white;
   position: relative;
   animation: move-text 3s linear infinite;
@@ -362,10 +366,15 @@ nav {
   width: 100vw;
   height: 100vh;
 }
+/* #home{
+  width:100vw;
+  height:100vh;
+  background-color: #89d5f3;
+} */
 
 .about-container {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 6rem;
+  margin-right: 6rem;
   position: relative;
   background-color: hsl(307, 81%, 87%);
   width: 90%;
@@ -374,14 +383,14 @@ nav {
 
 .about-container .text {
   font-family: "Anton", sans-serif;
-  font-size: 470%;
+  font-size: 12vh;
   color: rgb(252, 69, 215);
 }
 
 .outer-container {
   background-color: #cc65b8;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 2%;
+  margin-right:2%;
   border-radius: 5px;
   border: 1px solid #5d2b53;
 }
@@ -442,7 +451,7 @@ nav {
 
 .tab-link {
   font-family: "Londrina Sketch", sans-serif;
-  font-size: 250%;
+  font-size: 7vh;
   margin: 0;
   padding: 2px 2px 2px 0;
   background: none;
@@ -544,18 +553,18 @@ ul.courses li {
 #experience-text {
   text-align: center;
   margin: 0 170px 0 170px;
-  font-size: 150%;
+  font-size: 5vh;
 }
 
 /*Background Images */
 .about-background-images div:nth-child(1) {
   position: absolute;
   background: url("Assets/aboutme.png");
-  left: 0;
-  top: 645px;
+  left: -7vh;
+  top: -1vh;
   width: 20%;
   height: 20%;
-  background-size: 270px;
+  background-size: 30vh;
   background-repeat: no-repeat;
   animation: vibrate 5s infinite;
   z-index: 1;
@@ -564,11 +573,11 @@ ul.courses li {
 .about-background-images div:nth-child(2) {
   position: absolute;
   background: url("Assets/e.png");
-  left: 660px;
-  top: 995px;
+  left: 60vh;
+  top: 50vh;
   height: 30%;
   width: 30%;
-  background-size: 500px;
+  background-size: 50vh;
   background-repeat: no-repeat;
   z-index: 1;
   opacity: 0.5;

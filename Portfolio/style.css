@@ -7,6 +7,12 @@ body {
   background-color: #ffe5f2;
   padding: 0;
 }
+
+#home{
+  background-color: #89d5f3;
+  height:100vh;
+}
+
 /*Nav Bar*/
 .logo div:nth-child(1) {
   background: url("Assets/Kimone.png");
@@ -63,6 +69,7 @@ nav {
   display: inline-block;
   position: relative;
   width: 100vw;
+  height: 100vh;
 }
 
 .home-container #fade-In {
@@ -926,7 +933,7 @@ img {
   animation: vibrate 5s infinite;
 }
 .proj-background-images1 div:nth-child(1) {
-  position: relative;
+  position: absolute;
   background: url("Assets/projects.png");
   width: 40%;
   height: 40%;
@@ -1178,6 +1185,9 @@ form {
 /**************************************************************RESPONSIVE******************************************/
 /*Desktop and laptops*/
 @media screen and (min-width: 1440px) {
+  .home-container{
+    height: auto;
+  }
   #moveDownwards {
     position: relative;
     padding: 5px;
@@ -1371,6 +1381,7 @@ form {
 }
 
 /*Mobile Devices*/
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   /*********************NAVBAR*********************/
   .top-nav {
@@ -1747,3 +1758,15 @@ form {
     margin-left: 5px;
   }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

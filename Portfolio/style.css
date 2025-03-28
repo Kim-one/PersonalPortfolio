@@ -926,7 +926,7 @@ img {
   animation: vibrate 5s infinite;
 }
 .proj-background-images1 div:nth-child(1) {
-  position: absolute;
+  position: relative;
   background: url("Assets/projects.png");
   width: 40%;
   height: 40%;
@@ -1175,7 +1175,7 @@ form {
   display: none;
 }
 
-/**************RESPONSIVE*****************/
+/**************************************************************RESPONSIVE******************************************/
 /*Desktop and laptops*/
 @media screen and (min-width: 1440px) {
   #moveDownwards {
@@ -1357,6 +1357,7 @@ form {
     margin-right: -21px;
   }
   /******PROJECT SCREEN END****/
+
   /******CONTACT SCREEN BEG****/
   .contact-text {
     padding: 30px 30px;

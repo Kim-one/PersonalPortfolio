@@ -364,6 +364,8 @@ nav {
   margin-left: 60px;
   margin-right: 60px;
   background-color: hsl(307, 81%, 87%);
+  width: 100vw;
+  height: 100vh;
 }
 
 .about-container .text {

@@ -15,12 +15,12 @@ body {
 .logo div:nth-child(1) {
   background: url("Assets/Kimone.png");
   background-repeat: no-repeat;
-  background-size: 120px;
+  background-size: 20vh;
   width: 50%;
   height: 50%;
   position: absolute;
-  top: -35px;
-  left: -790px;
+  top: -5vh;
+  left: 0;
   z-index: -1;
 }
 
@@ -102,7 +102,7 @@ nav {
   width: 20%;
   height: 20%;
   background: url("Assets/polaroid.png");
-  background-size: 250px;
+  background-size: 25vh;
   animation: moveBackground 5s linear infinite;
   background-repeat: no-repeat;
 }
@@ -110,12 +110,12 @@ nav {
 /*bottom left first image*/
 .background-image div:nth-child(2) {
   position: absolute;
-  top: 365px;
-  left: 90px;
+  top: 60vh;
+  left: 10vh;
   width: 20%;
   height: 20%;
   background: url("Assets/book.png");
-  background-size: 250px;
+  background-size: 25vh;
   animation: vibrate 2s linear infinite;
   background-repeat: no-repeat;
 }
@@ -123,12 +123,12 @@ nav {
 /*bottom left second image*/
 .background-image div:nth-child(3) {
   position: absolute;
-  top: 340px;
-  left: 190px;
+  top: 50vh;
+  left: 40vh;
   width: 20%;
   height: 20%;
   background: url("Assets/glasses.png");
-  background-size: 250px;
+  background-size: 25vh;
   animation: vibrate 1s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -137,12 +137,12 @@ nav {
 /*top left second image*/
 .background-image div:nth-child(4) {
   position: absolute;
-  top: 40px;
-  left: 150px;
+  top: 10vh;
+  left: 20vh;
   width: 20%;
   height: 20%;
   background: url("Assets/headphones.png");
-  background-size: 250px;
+  background-size: 25vh;
   animation: moveBackground 2s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -151,12 +151,12 @@ nav {
 /* top right side third image*/
 .background-image div:nth-child(5) {
   position: absolute;
-  top: 30px;
-  left: 1045px;
+  top: 10vh;
+  left: 160vh;
   width: 20%;
   height: 20%;
   background: url("Assets/nintendo.png");
-  background-size: 250px;
+  background-size: 30vh;
   animation: moveBackground 2s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -165,12 +165,12 @@ nav {
 /*top right  side first image*/
 .background-image div:nth-child(6) {
   position: absolute;
-  top: 0px;
-  left: 824px;
+  top: 0;
+  left: 130vh;
   width: 20%;
   height: 20%;
   background: url("Assets/flag.png");
-  background-size: 150px;
+  background-size: 25vh;
   animation: moveBackground 3s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -179,8 +179,8 @@ nav {
 /*top right second image*/
 .background-image div:nth-child(7) {
   position: absolute;
-  top: 50px;
-  left: 905px;
+  top: 10vh;
+  left: 135vh;
   width: 20%;
   height: 20%;
   background: url("Assets/Laptop.png");
@@ -193,8 +193,8 @@ nav {
 /*bottom right first image*/
 .background-image div:nth-child(8) {
   position: absolute;
-  top: 390px;
-  left: 900px;
+  top: 50vh;
+  left: 130vh;
   width: 20%;
   height: 20%;
   background: url("Assets/yoga\ bag.png");
@@ -207,12 +207,12 @@ nav {
 /*bottom right second image*/
 .background-image div:nth-child(9) {
   position: absolute;
-  top: 260px;
-  left: 910px;
-  width: 20%;
-  height: 20%;
+  top: 45vh;
+  left: 150vh;
+  width: 25%;
+  height: 25%;
   background: url("Assets/milkshake.png");
-  background-size: 440px;
+  background-size: 60vh;
   animation: vibrate 1s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -221,12 +221,12 @@ nav {
 /*top right third image*/
 .background-image div:nth-child(10) {
   position: absolute;
-  top: 200vh;
-  left: 280vh;
+  top: 0;
+  left: 40vh;
   width: 20vh;
   height: 20vh;
   background: url("Assets/GameConsole.png");
-  background-size: 250em;
+  background-size: 25vh;
   animation: moveBackground 2.5s infinite;
   background-repeat: no-repeat;
   transform-origin: center;
@@ -359,27 +359,35 @@ nav {
   margin-top: 20px;
 }
 
-#about {
-  font-family: "Londrina Sketch", sans-serif;
-  text-align: center;
-  font-size: 190%;
+#about-page{
+  background-color: #89d5f3;
   width: 100vw;
   height: 100vh;
+  text-align: center;
 }
-/* #home{
-  width:100vw;
-  height:100vh;
-  background-color: #89d5f3;
+
+/* #about {
+  font-family: "Londrina Sketch", sans-serif;
+  text-align: center;
 } */
 
-.about-container {
-  margin-left: 6rem;
-  margin-right: 6rem;
-  position: relative;
+.about-container{
   background-color: hsl(307, 81%, 87%);
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 4vh; */
   width: 90%;
-  height: 90%;
+  height: 10%;
 }
+
+/* .about-container { */
+  /* margin-left: 6rem;
+  margin-right: 6rem; */
+  /* position: relative; */
+  /* background-color: hsl(307, 81%, 87%); */
+  /* width: 90vw;
+  height: 90vh; */
+/* } */
 
 .about-container .text {
   font-family: "Anton", sans-serif;

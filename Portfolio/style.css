@@ -360,10 +360,8 @@ nav {
 }
 
 #about-page{
-  background-color: #89d5f3;
   width: 100vw;
   height: 100vh;
-  text-align: center;
 }
 
 /* #about {
@@ -373,21 +371,13 @@ nav {
 
 .about-container{
   background-color: hsl(307, 81%, 87%);
-  text-align: center;
   justify-content: center;
-  /* margin-left: 4vh; */
   width: 90%;
-  height: 10%;
+  height: 100%;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-/* .about-container { */
-  /* margin-left: 6rem;
-  margin-right: 6rem; */
-  /* position: relative; */
-  /* background-color: hsl(307, 81%, 87%); */
-  /* width: 90vw;
-  height: 90vh; */
-/* } */
 
 .about-container .text {
   font-family: "Anton", sans-serif;
@@ -397,26 +387,29 @@ nav {
 
 .outer-container {
   background-color: #cc65b8;
-  margin-left: 2%;
-  margin-right:2%;
+  margin-left: auto;
+  margin-right:auto;
   border-radius: 5px;
   border: 1px solid #5d2b53;
+  height:80%;
+  width: 98%;
 }
 
 .inner-container {
   font-family: "Londrina Sketch", sans-serif;
   background-color: #ffe5f2;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 5px;
+  position: relative;
   border-radius: 5px;
   border-top: none;
   border-left: 1.5px solid #5d2b53;
   border-right: 1.5px solid #5d2b53;
   display: flex;
   flex-direction: column;
-  height: 500px; /* Set a fixed height suitable for your design */
-  overflow-x: hidden;
+  height: 85%;
+  width: 98%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*Circles on left side*/
@@ -511,12 +504,12 @@ nav {
 }
 
 #moveDownwards {
+  text-decoration: none;
   position: relative;
-  padding: 5px;
-  top: 10px;
+  margin-left: 165vh;
   background-color: #cf51f1;
-  border-radius: 35px;
-  margin-left: 1090px;
+  border-radius: 50%;
+  padding: 0.5vh;
   transform: rotate(90deg);
   cursor: pointer;
   z-index: 9;
@@ -568,8 +561,8 @@ ul.courses li {
 .about-background-images div:nth-child(1) {
   position: absolute;
   background: url("Assets/aboutme.png");
-  left: -7vh;
-  top: -1vh;
+  left: 7vh;
+  top: 100vh;
   width: 20%;
   height: 20%;
   background-size: 30vh;

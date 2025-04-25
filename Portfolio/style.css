@@ -703,29 +703,33 @@ ul.courses li {
 }
 
 /*next page arrows */
-/* #moveUpwards {
+#movetoHome1{
+  text-decoration: none;
   position: relative;
-  top: 20px;
-  padding: 5px;
+  top: -1vh;
+  left: 35%;
   background-color: #cf51f1;
-  border-radius: 35px;
-  margin-left: 1090px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5%;
   transform: rotate(-90deg);
   cursor: pointer;
   z-index: 9;
 }
 
-#moveDownwards {
+#moveToProjects{
   text-decoration: none;
   position: relative;
-  margin-left: 165vh;
-  background-color: #516ef1;
+  /* top: 1vh;
+  left: 95.1%; */
+  background-color: #cf51f1;
   border-radius: 50%;
-  padding: 0.5vh;
+  text-align: center;
+  padding: 0.5%;
   transform: rotate(90deg);
   cursor: pointer;
   z-index: 9;
-} */
+}
 
 /*Kims Corner Text*/
 .text1 {
@@ -967,12 +971,12 @@ img {
 }
 
 .proj-background-images div:nth-child(1) {
-  position: absolute;
+  position: relative;
   background: url("Assets/girl.png");
   width: 40%;
   height: 40%;
   top: 40vh;
-  left: 125vh;
+  left: 15vh;
   background-repeat: no-repeat;
   background-size: 65vh;
   animation: vibrate 5s infinite;
@@ -1114,6 +1118,39 @@ img {
   animation: vibrate 5s infinite;
 }
 
+p #movetoContact{
+  text-align: center;
+}
+#movetoContact{
+  text-decoration: none;
+  position: relative;
+  /* margin-right: 100vh; */
+  /* top: 1vh;
+  left: 95.1%; */
+  background-color: #cf51f1;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5%;
+  transform: rotate(90deg);
+  cursor: pointer;
+  z-index: 9;
+}
+
+#moveToAbout{
+  text-decoration: none;
+  position: relative;
+  /* margin-right: 100vh; */
+  /* top: 1vh;
+  left: 95.1%; */
+  background-color: #cf51f1;
+  border-radius: 50%;
+  text-align: center;
+  padding: 0.5%;
+  transform: rotate(-90deg);
+  cursor: pointer;
+  z-index: 9;
+}
+
 /*************CONTACT SECTION*****************/
 
 #contact{
@@ -1133,7 +1170,7 @@ img {
 .contact-container {
   display: flex;
   align-items: center;
-  gap: 300px;
+  gap: 40vh;
   height: 70%;
   border-radius: 25px;
   margin-left: 35vh;
@@ -1148,7 +1185,7 @@ img {
 
 .contact-container input {
   background-color: #ffe5f2;
-  width: 295px;
+  width: 45vh;
   height: 2.5rem;
   border-radius: 1rem;
   border: none;
@@ -1159,7 +1196,7 @@ img {
 .contact-container textarea {
   outline: none;
   margin-top: 1.5rem;
-  width: 300px;
+  width: 45vh;
   height: 15rem;
   border-radius: 1rem;
   background-color: #ffe5f2;
@@ -1242,6 +1279,19 @@ form {
 
 .icon {
   display: none;
+}
+
+#movetoHome {
+  position: relative;
+  top: 8vh;
+  left: -1%;
+  padding: 0.5%;
+  background-color: #cf51f1;
+  border-radius: 50%;
+  /* margin-left: 190vh; */
+  transform: rotate(-90deg);
+  cursor: pointer;
+  z-index: 9;
 }
 
 /**************************************************************RESPONSIVE******************************************/
